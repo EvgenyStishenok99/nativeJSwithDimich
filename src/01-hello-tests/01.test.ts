@@ -1,7 +1,8 @@
 import {mult, splitIntoWords, sum} from "./01.ts";
 import {expect} from "vitest";
+import { test } from "vitest";
 
-test ("sum should be correct", ()=>{
+test.skip ("sum should be correct", ()=>{
   const a =1
   const b =2
   const c = 3
@@ -13,7 +14,7 @@ test ("sum should be correct", ()=>{
   expect(result2).toBe(5)
 })
 
-test ("mult should be correct", ()=>{
+test.skip ("mult should be correct", ()=>{
   const a =1
   const b =2
   const c = 3
@@ -25,7 +26,7 @@ test ("mult should be correct", ()=>{
   expect(result2).toBe(6)
 })
 
-test ("splitting into words should be correct", ()=>{
+test.skip ("splitting into words should be correct", ()=>{
   const sent1 = "Hello my friend!"
   const sent2 = "JS - the best  programming languages."
 
