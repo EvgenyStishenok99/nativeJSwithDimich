@@ -6,7 +6,7 @@ type AdressType = {
   streetTittle: string,
   city: LocalCityType,
 }
-type StudentType = {
+export  type StudentType = {
   id: number;
   name: string;
   age: number;
@@ -14,12 +14,12 @@ type StudentType = {
   adress: AdressType
   technologies:Array<TechType>
 }
-type TechType = {
+ type TechType = {
   id: number;
   title: string;
 }
 
-const student: StudentType = {
+export const student: StudentType = {
   id: 1,
   name: "John",
   age: 32,
